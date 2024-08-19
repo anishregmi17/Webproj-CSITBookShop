@@ -1,14 +1,15 @@
+
+<!-- This is the home or welcome page of our website -->
 <?php
 session_start();
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pustak Pasal</title>
+    <title>CSIT BOOK</title>
 
     <!-- css to make book bundle at top -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -28,7 +29,7 @@ session_start();
 
     <div class="header-1">
 
-        <a href="#" class="logo"> <i class="fas fa-book"></i> Hamro Pustak Pasal </a>
+        <a href="#" class="logo"> <i class="fas fa-book"></i> CSIT Book Store </a>
 
         <form action="" class="search-form">
             <input type="search" name="" placeholder="search here..." id="search-box">
@@ -52,11 +53,6 @@ session_start();
 
     <div class="header-2">
         <nav class="navbar">
-            <!-- <a href="pages/signin.php">home</a>
-            <a href="pages/signin.php">featured</a>
-            <a href="pages/signin.php">category</a>
-            <a href="pages/signin.php">reviews</a>
-            <a href="pages/signin.php">feedback</a> -->
         </nav>
     </div>
 
@@ -70,7 +66,7 @@ session_start();
     <a href="pages/signin.php" class="fas fa-list"></a>
     <a href="pages/signin.php" class="fas fa-tags"></a>
     <a href="pages/signin.php" class="fas fa-comments"></a>
-    <a href="#feedback" class="fas fa-feedback"></a>
+    <a href="pages/signin.php" class="fas fa-feedback"></a>
 </nav>
 
 <!-- home section starts  -->
@@ -91,12 +87,9 @@ session_start();
             <div class="swiper-wrapper">
 
             <a href="#" class="swiper-slide"><img src="https://www.upaharbazar.com/wp-content/uploads/2023/05/B.-Sc.-CSIT-Entrance-Book.jpg" alt=""></a>
-
-                <!-- <a href="#" class="swiper-slide"><img src="https://heritagebooks.com.np/wp-content/uploads/2019/06/1532767658dhanpat_rai0011.jpg" alt=""></a> -->
-                <!-- <a href="#" class="swiper-slide"><img src="https://heritagebooks.com.np/wp-content/uploads/2019/09/7-1.jpg" alt=""></a> -->
-                <!-- <a href="#" class="swiper-slide"><img src="https://heritagebooks.com.np/wp-content/uploads/2022/03/Database-Management-System-CSIT-BIM-cropped.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="https://heritagebooks.com.np/wp-content/uploads/2022/03/Database-Management-System-CSIT-BIM-cropped.jpg" alt=""></a>
                 <a href="#" class="swiper-slide"><img src="https://heritagebooks.com.np/wp-content/uploads/2022/03/Statistics-I-CSIT-219x300.jpg" alt=""></a>
-                <a href="#" class="swiper-slide"><img src="https://cdn.shopify.com/s/files/1/0329/9547/5515/products/Web_Technology1.jpg?v=1583310991" alt=""></a> -->
+                <a href="#" class="swiper-slide"><img src="https://cdn.shopify.com/s/files/1/0329/9547/5515/products/Web_Technology1.jpg?v=1583310991" alt=""></a>
             </div>
             <img src="https://raw.githubusercontent.com/KordePriyanka/Books4MU-Book-Store-Website-/main/image/stand.png" class="stand" alt="">
         </div>
@@ -106,8 +99,6 @@ session_start();
 </section>
 
 <!-- home section ense  -->
-
-<!-- icons section starts  -->
 
 <section class="icons-container">
 
@@ -154,3 +145,4 @@ session_start();
 
 </body>
 </html>
+

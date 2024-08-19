@@ -2,13 +2,13 @@
 <?php
 session_start();
 
-// Unset all session variables
+// session variable unset garne
 $_SESSION = array();
 
-// Destroy the session
+// session destroy garne
 session_destroy();
 
-// Redirect to the signin.php inside pages folder with a logout message
+// logout msg sangai signin page ma pathaune
 header("Location: pages/signin.php?logout=1");
 exit();
 ?>

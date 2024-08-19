@@ -36,39 +36,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 }
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamro Pustak Pasal</title>
-
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-
-<!-- header section starts  -->
-
-<header class="header">
-    <div class="header-1">
-        <a href="../index.php" class="logo"> <i class="fas fa-book"></i> Hamro Pustak Pasal </a>
-        <form action="" class="search-form">
-            <input type="search" name="" placeholder="search here..." id="search-box">
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
-        <div class="icons">
-            <div id="search-btn" class="fas fa-search"></div>
-        </div>
-    </div>
-</header>
-
-<!-- header section ends -->
+<?php
+include('header.php');
+?>
 
 <hr style="border: 1px solid black;">
 <div class="container" style="background-color: #fff; padding: 40px; border-radius: 10px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); max-width: 400px; margin: 0 auto; margin-top: 3rem;">
@@ -102,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <a href="https://www.instagram.com" class="fab fa-instagram"></a>
         <a href="https://www.linkedin.com" class="fab fa-linkedin"></a>
     </div>
-    <div class="credit"> Hamro Pustak Pasal ©2024 all rights reserved! </div>
+    <div class="credit"> CSIT Book Store ©2024 all rights reserved! </div>
 </section>
 
 <!-- footer section ends -->
